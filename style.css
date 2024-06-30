@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height:900px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg , rgb(11, 13, 20)  ,rgb(16, 13, 62) );
+    align-items: center;
+}
+#main_outer{
+    height:629px;
+    width: 295px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:black;
+    box-shadow: 0 0  20px rgb(126, 130, 137);
+    background:  rgba(0,0,0,0.5);
+
+}
+#logo{
+    margin-top: 0px;
+    color: rgb(101, 143, 198);
+    font-size: 33px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 3px solid black;
+    justify-content: center;
+    background-color:black;
+    height: 40px;
+}
+#result{
+    text-align: right;
+    color: black;
+    background-color: white;
+    font-size:50px;
+    font-style:bold;
+    background: 0 0 0 0.5%;
+    height: 200px;
+    width: 288px;
+    background:rgba(255, 255, 255,0.7);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.8);
+}
+button{
+    height: 60px;
+    width:60px;
+    color: white;
+    margin: 4px;
+    margin-left: 5px;
+    color: black;
+    font-size:30px;
+    margin-top: 10px;
+    background-color: rgb(113, 112, 123);
+   border-radius: 47%;
+   cursor: pointer;
+}
+#button_back{
+    background-color: black;
+    border-radius: 20px;
+}
+.col_yel{
+    background-color: #1068f5;
+}
+.col_black{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    filter: drop-shadow(1px 2px 2px white);
+}
+button:active{
+    background-color:darkslateblue;
+}
+ 
+ 
